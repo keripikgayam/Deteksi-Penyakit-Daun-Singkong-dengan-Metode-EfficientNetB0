@@ -1,0 +1,130 @@
+Epoch 1/20
+2024-08-30 07:05:44.935012: I tensorflow/stream_executor/cuda/cuda_dnn.cc:368] Loaded cuDNN version 8400
+2024-08-30 07:05:49.466730: I tensorflow/core/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+2024-08-30 07:05:49.468450: I tensorflow/core/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+2024-08-30 07:05:49.468481: W tensorflow/stream_executor/gpu/asm_compiler.cc:80] Couldn't get ptxas version string: INTERNAL: Couldn't invoke ptxas --version
+2024-08-30 07:05:49.469435: I tensorflow/core/platform/default/subprocess.cc:304] Start cannot spawn child process: No such file or directory
+2024-08-30 07:05:49.469509: W tensorflow/stream_executor/gpu/redzone_allocator.cc:314] INTERNAL: Failed to launch ptxas
+Relying on driver to perform ptx compilation. 
+Modify $PATH to customize ptxas location.
+This message will be only logged once.
+2024-08-30 07:05:49.979946: I tensorflow/stream_executor/cuda/cuda_blas.cc:1786] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+2140/2139 [==============================] - ETA: 0s - loss: 0.6451 - acc: 0.7739
+Epoch 1: val_loss improved from inf to 0.52671, saving model to ./EffNetB0_512_8_best_weights.h5
+2139/2139 [==============================] - 1111s 508ms/step - loss: 0.6451 - acc: 0.7739 - val_loss: 0.5267 - val_acc: 0.8222 - lr: 0.0010
+Epoch 2/20
+2140/2139 [==============================] - ETA: 0s - loss: 0.5163 - acc: 0.8221
+Epoch 2: val_loss improved from 0.52671 to 0.51591, saving model to ./EffNetB0_512_8_best_weights.h5
+2139/2139 [==============================] - 1084s 506ms/step - loss: 0.5163 - acc: 0.8221 - val_loss: 0.5159 - val_acc: 0.8205 - lr: 0.0010
+Epoch 3/20
+2140/2139 [==============================] - ETA: 0s - loss: 0.4806 - acc: 0.8384
+Epoch 3: val_loss improved from 0.51591 to 0.45007, saving model to ./EffNetB0_512_8_best_weights.h5
+2139/2139 [==============================] - 1083s 506ms/step - loss: 0.4806 - acc: 0.8384 - val_loss: 0.4501 - val_acc: 0.8439 - lr: 0.0010
+Epoch 4/20
+2140/2139 [==============================] - ETA: 0s - loss: 0.4531 - acc: 0.8474
+Epoch 4: val_loss did not improve from 0.45007
+2139/2139 [==============================] - 1103s 515ms/step - loss: 0.4531 - acc: 0.8474 - val_loss: 0.4672 - val_acc: 0.8490 - lr: 0.0010
+Epoch 5/20
+2140/2139 [==============================] - ETA: 0s - loss: 0.4365 - acc: 0.8505
+Epoch 5: val_loss did not improve from 0.45007
+
+Epoch 5: ReduceLROnPlateau reducing learning rate to 0.0003000000142492354.
+2139/2139 [==============================] - 1028s 480ms/step - loss: 0.4365 - acc: 0.8505 - val_loss: 0.4974 - val_acc: 0.8448 - lr: 0.0010
+Epoch 6/20
+2140/2139 [==============================] - ETA: 0s - loss: 0.3598 - acc: 0.8766
+Epoch 6: val_loss improved from 0.45007 to 0.39843, saving model to ./EffNetB0_512_8_best_weights.h5
+2139/2139 [==============================] - 944s 441ms/step - loss: 0.3598 - acc: 0.8766 - val_loss: 0.3984 - val_acc: 0.8684 - lr: 3.0000e-04
+Epoch 7/20
+2140/2139 [==============================] - ETA: 0s - loss: 0.3423 - acc: 0.8830
+Epoch 7: val_loss improved from 0.39843 to 0.37729, saving model to ./EffNetB0_512_8_best_weights.h5
+2139/2139 [==============================] - 937s 438ms/step - loss: 0.3423 - acc: 0.8830 - val_loss: 0.3773 - val_acc: 0.8740 - lr: 3.0000e-04
+Epoch 8/20
+2140/2139 [==============================] - ETA: 0s - loss: 0.3342 - acc: 0.8882
+Epoch 8: val_loss did not improve from 0.37729
+2139/2139 [==============================] - 752s 351ms/step - loss: 0.3342 - acc: 0.8882 - val_loss: 0.3853 - val_acc: 0.8684 - lr: 3.0000e-04
+Epoch 9/20
+2140/2139 [==============================] - ETA: 0s - loss: 0.3215 - acc: 0.8908
+Epoch 9: val_loss improved from 0.37729 to 0.35928, saving model to ./EffNetB0_512_8_best_weights.h5
+2139/2139 [==============================] - 843s 394ms/step - loss: 0.3215 - acc: 0.8908 - val_loss: 0.3593 - val_acc: 0.8768 - lr: 3.0000e-04
+Epoch 10/20
+2140/2139 [==============================] - ETA: 0s - loss: 0.3116 - acc: 0.8936
+Epoch 10: val_loss improved from 0.35928 to 0.35881, saving model to ./EffNetB0_512_8_best_weights.h5
+2139/2139 [==============================] - 844s 394ms/step - loss: 0.3116 - acc: 0.8936 - val_loss: 0.3588 - val_acc: 0.8745 - lr: 3.0000e-04
+Epoch 11/20
+2140/2139 [==============================] - ETA: 0s - loss: 0.3060 - acc: 0.8952
+Epoch 11: val_loss did not improve from 0.35881
+
+Epoch 11: ReduceLROnPlateau reducing learning rate to 9.000000427477062e-05.
+2139/2139 [==============================] - 792s 370ms/step - loss: 0.3060 - acc: 0.8952 - val_loss: 0.3861 - val_acc: 0.8743 - lr: 3.0000e-04
+Epoch 12/20
+2140/2139 [==============================] - ETA: 0s - loss: 0.2756 - acc: 0.9052
+Epoch 12: val_loss did not improve from 0.35881
+2139/2139 [==============================] - 740s 346ms/step - loss: 0.2756 - acc: 0.9052 - val_loss: 0.3591 - val_acc: 0.8824 - lr: 9.0000e-05
+Epoch 13/20
+2140/2139 [==============================] - ETA: 0s - loss: 0.2668 - acc: 0.9071
+Epoch 13: val_loss did not improve from 0.35881
+
+Epoch 13: ReduceLROnPlateau reducing learning rate to 2.700000040931627e-05.
+2139/2139 [==============================] - 781s 365ms/step - loss: 0.2668 - acc: 0.9071 - val_loss: 0.3645 - val_acc: 0.8834 - lr: 9.0000e-05
+Epoch 14/20
+2140/2139 [==============================] - ETA: 0s - loss: 0.2584 - acc: 0.9100
+Epoch 14: val_loss improved from 0.35881 to 0.35494, saving model to ./EffNetB0_512_8_best_weights.h5
+2139/2139 [==============================] - 764s 357ms/step - loss: 0.2584 - acc: 0.9100 - val_loss: 0.3549 - val_acc: 0.8850 - lr: 2.7000e-05
+Epoch 15/20
+2140/2139 [==============================] - ETA: 0s - loss: 0.2532 - acc: 0.9141
+Epoch 15: val_loss did not improve from 0.35494
+2139/2139 [==============================] - 829s 387ms/step - loss: 0.2532 - acc: 0.9141 - val_loss: 0.3568 - val_acc: 0.8839 - lr: 2.7000e-05
+Epoch 16/20
+2140/2139 [==============================] - ETA: 0s - loss: 0.2490 - acc: 0.9142
+Epoch 16: val_loss did not improve from 0.35494
+
+Epoch 16: ReduceLROnPlateau reducing learning rate to 8.100000013655517e-06.
+2139/2139 [==============================] - 789s 369ms/step - loss: 0.2490 - acc: 0.9142 - val_loss: 0.3555 - val_acc: 0.8853 - lr: 2.7000e-05
+Epoch 17/20
+2140/2139 [==============================] - ETA: 0s - loss: 0.2466 - acc: 0.9138
+Epoch 17: val_loss did not improve from 0.35494
+2139/2139 [==============================] - 750s 350ms/step - loss: 0.2466 - acc: 0.9138 - val_loss: 0.3574 - val_acc: 0.8841 - lr: 8.1000e-06
+Epoch 18/20
+2140/2139 [==============================] - ETA: 0s - loss: 0.2421 - acc: 0.9187
+Epoch 18: val_loss did not improve from 0.35494
+
+Epoch 18: ReduceLROnPlateau reducing learning rate to 2.429999949526973e-06.
+2139/2139 [==============================] - 765s 358ms/step - loss: 0.2421 - acc: 0.9187 - val_loss: 0.3570 - val_acc: 0.8848 - lr: 8.1000e-06
+Epoch 19/20
+2140/2139 [==============================] - ETA: 0s - loss: 0.2459 - acc: 0.9148
+Epoch 19: val_loss did not improve from 0.35494
+Restoring model weights from the end of the best epoch: 14.
+2139/2139 [==============================] - 764s 357ms/step - loss: 0.2459 - acc: 0.9148 - val_loss: 0.3569 - val_acc: 0.8848 - lr: 2.4300e-06
+Epoch 19: early stopping
+
+
+
+|=======================================|
+|	Confusion Matrix Validasi	|
+|=======================================|
+|Accuracy 	: 0.8850 = 88,50%	|
+|Precision	: 0.8873 = 88,73%	|
+|Recall   	: 0.8850 = 88,50%	|
+|F1 Score 	: 0.8857 = 88,57%	|
+|Confusion Matrix:			|
+| [ 134   14    1   10   41]		|
+| [  27  341    9   15   44]		|
+| [  11   11  394   38   41]		|
+| [   6   10   35 2550   37]		|
+| [  53   25   20   44  368]		|
+|_______________________________________|
+
+|=======================================|
+|	Confusion Matrix Training	|
+|=======================================|
+|Accuracy	: 0.9234 = 92,34%	|
+|Precision	: 0.9229 = 92,29%	|
+|Recall		: 0.9234 = 92,34%	|
+|F1 Score	: 0.9230 = 92,30%	|
+|Confusion Matrix:			|
+| [  695    39    14    28   111]	|
+| [   59  1517    32    50    95]	|
+| [   17    26  1622   153    73]	|
+| [   20    32   118 10295    55]	|
+| [  130    78    74   108  1677]	|
+|_______________________________________|
