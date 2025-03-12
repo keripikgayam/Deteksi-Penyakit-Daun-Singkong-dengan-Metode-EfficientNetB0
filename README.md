@@ -1,2 +1,2 @@
-# Skripsi-Deteksi-Penyakit-Daun-EfficientNetB0
+# Skripsi Deteksi Penyakit Daun Singkong dengan Metode EfficientNetB0
 My Final Exam
