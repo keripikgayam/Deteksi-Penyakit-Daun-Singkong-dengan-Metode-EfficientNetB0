@@ -8,6 +8,7 @@ Sistem ini menggunakan dataset citra daun singkong yang dikumpulkan dari platfor
 - Cassava Green Mottle (CGM)
 - Cassava Mosaic Disease (CMD)
 - Daun Sehat (healthy)
+
 Model EfficientNetB0 dipilih karena efisiensi komputasinya dan kemampuannya untuk bekerja dengan dataset besar. Model ini dilatih menggunakan teknik augmentasi data untuk meningkatkan variasi sampel dan meningkatkan akurasi.
 
 ## Fitur
