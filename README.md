@@ -1,2 +1,2 @@
 # Skripsi Deteksi Penyakit Daun Singkong dengan Metode EfficientNetB0
-My Final Exam
+Penelitian ini menggunakan dataset berikut https://www.kaggle.com/competitions/cassava-leaf-disease-classification/data
