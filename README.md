@@ -1,4 +1,4 @@
-# Skripsi Deteksi Penyakit Daun Singkong dengan Metode EfficientNetB0
+# Deteksi Penyakit Daun Singkong dengan Metode EfficientNetB0
 Proyek ini bertujuan untuk mengembangkan sistem deteksi otomatis untuk penyakit daun pada tanaman singkong (Manihot esculenta). Penyakit daun merupakan ancaman serius yang dapat mengurangi hasil panen dan kualitas tanaman singkong. Dengan menggunakan teknik deep learning, khususnya arsitektur Convolutional Neural Network (CNN) EfficientNetB0, proyek ini mampu mengklasifikasikan citra daun singkong ke dalam beberapa kategori penyakit dan daun sehat. Penelitian ini menggunakan dataset yang dapat dilihat sebagai berikut https://www.kaggle.com/competitions/cassava-leaf-disease-classification/data .
 
 ## Deskripsi
